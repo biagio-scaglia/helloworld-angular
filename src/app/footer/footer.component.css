@@ -1,0 +1,120 @@
+.moon-footer {
+  background: linear-gradient(145deg, #d0f0ff, #eafff9);
+  color: #1a1a1a;
+  padding: 3rem 1rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  border-top: 2px solid #a0e3ff;
+  box-shadow: 0 -2px 20px rgba(0, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+}
+
+.moon-footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.moon-footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.moon-footer-logo {
+  width: 160px;
+  filter: drop-shadow(0 0 8px rgba(0, 200, 255, 0.5));
+}
+
+.moon-footer-brand p {
+  margin: 0;
+  line-height: 1.5;
+  opacity: 0.9;
+  color: #003344;
+  text-shadow: 1px 1px 1px white;
+}
+
+.moon-social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.moon-social-links a {
+  color: #0077aa;
+  font-size: 1.4rem;
+  transition: transform 0.3s, color 0.3s;
+  text-shadow: 1px 1px 2px white;
+}
+
+.moon-social-links a:hover {
+  transform: scale(1.2);
+  color: #00ccff;
+}
+
+.moon-footer-links h4,
+.moon-footer-contact h4 {
+  color: #0066aa;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 2px white;
+}
+
+.moon-footer-links ul,
+.moon-footer-contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.moon-footer-links li,
+.moon-footer-contact li {
+  margin-bottom: 0.8rem;
+}
+
+.moon-footer-links a {
+  color: #004466;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-shadow: 1px 1px 1px white;
+}
+
+.moon-footer-links a:hover {
+  color: #00bbff;
+}
+
+.moon-footer-contact li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #002233;
+  text-shadow: 1px 1px 1px white;
+}
+
+.moon-footer-contact svg {
+  filter: drop-shadow(0 0 2px rgba(255,255,255,0.7));
+}
+
+.moon-footer-copyright {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #99ddee;
+  opacity: 0.9;
+  font-size: 0.9rem;
+  color: #005566;
+  text-shadow: 1px 1px 1px white;
+}
+
+.moon-footer-copyright strong {
+  color: #00aaff;
+}
+
+@media (max-width: 768px) {
+  .moon-footer-container {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}

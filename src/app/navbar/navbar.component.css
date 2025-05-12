@@ -1,0 +1,54 @@
+.navbar {
+  backdrop-filter: blur(10px);
+  background: rgba(227, 242, 253, 0.6) !important;
+  border-bottom: 1px solid rgba(0, 200, 255, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 180, 255, 0.25);
+}
+
+.navbar-brand img {
+  filter: drop-shadow(0 0 5px rgba(0, 200, 255, 0.4));
+}
+
+.navbar-brand, .nav-link {
+  color: #004477 !important;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px white;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #00bbff !important;
+}
+
+.dropdown-menu {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #a0e8ff;
+  box-shadow: 0 0 10px rgba(0, 200, 255, 0.2);
+}
+
+.dropdown-item {
+  color: #004477;
+}
+
+.dropdown-item:hover {
+  background-color: #c6f0ff;
+  color: #002f44;
+}
+
+.btn-primary, .btn-info {
+  box-shadow: 0 0 8px rgba(0, 200, 255, 0.5);
+  border: none;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #00bfff;
+}
+
+.btn-info {
+  background-color: #00e5ff;
+}
+
+.btn:hover {
+  filter: brightness(1.1);
+}
